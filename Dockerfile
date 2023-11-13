@@ -6,7 +6,7 @@ RUN apt install -y curl
 
 RUN npm install 
 
-COPY ./SubService.js .
+COPY . .
 
 EXPOSE 80
 
